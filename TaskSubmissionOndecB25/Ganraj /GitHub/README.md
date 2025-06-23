@@ -1,4 +1,4 @@
-# 🧠 Git Commands: Basic to Advanced Cheat Sheet
+# 🧠 Git Commands: Basic to Advanced 
 
 This is a complete guide from basic to advanced Git commands with clear explanations.
 
