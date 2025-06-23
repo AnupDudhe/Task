@@ -250,19 +250,3 @@ spec:
 ```
 
 ---
-
-## 📄 README Summary
-
-This guide walks you through Docker from the ground up:
-
-- ✅ Basic Docker commands
-- 🛠️ Writing Dockerfiles
-- 🔗 Volumes (bind, named, anonymous) and how to inspect/manage them
-- 🌐 Networking types: bridge, host, custom
-- 🔧 Docker Compose (multi-container setup with networks and volumes)
-- ☸️ Extend to Kubernetes deployments with volume claims and service exposure
-
-> 📥 **To download this README**: Save this file as `README.md` and open with any Markdown viewer or GitHub for rendered version.
-
-Let me know if you'd like to add CI/CD workflows or monitoring tools next!
-
