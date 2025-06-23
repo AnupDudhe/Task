@@ -1,4 +1,4 @@
--Git Basic Commands:
+Git Commands Basic To Advance 
 
 Repository Setup & Creating Projects
 
@@ -86,3 +86,17 @@ Tagging
 		git tag -a [tag name] -m [tag description] 				----Creating an annotated tag
 		git tag v1.0.0										---Tag a specific commit
 		git push origin [tag name] 							-----Sharing tags to remote server
+
+Some Advance Git Commands
+                git init --bare                                                       ---Create a bare Git repository (for use as a remote repo only, without a working directory)
+                git config --global user.name "Your Name"
+                git config --global user.email "you@example.com"                        ---Set your global Git username and email (used for commits)
+                git config --list                                                     ---View all Git configuration values
+                git clean -fd                                                         ---Remove all untracked files and directories (dangerous: use with care)
+                git add -u                                                            ---Stage updated and deleted files (but not new files)
+                git reflog                                                            ---View history of HEAD movements (recover deleted branches or commits)
+                git push --force                                                      ---Force push changes (overwrite remote history – be very careful)
+                git pull --rebase                                                     ---Rebase your local commits on top of fetched commits instead of merging
+                git shortlog                                                          ---Summarize `git log` by author and commits
+                git describe --tags                                                   ---Describe the current commit using the most recent tag
+                git grep <pattern>                                                    ---Search for a string or pattern inside tracked files
