@@ -1,4 +1,4 @@
-# Docker : From Basics to Advanced with Diagrams
+# Docker : From Basics to Advanced 
 
 ## 📦 Docker Basics
 
